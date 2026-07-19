@@ -2,7 +2,7 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["PJKG67XLM8.jabinho.neverforget"],
+        "appIDs": ["PJKG67XLM8.com.jabinho.neverforget"],
         "components": [
           {
             "/": "/invite/*",
