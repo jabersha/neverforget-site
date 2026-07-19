@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["PJKG67XLM8.jabinho.neverforget"],
+        "components": [
+          {
+            "/": "/invite/*",
+            "comment": "Abre o app na tela de aceitar convite"
+          }
+        ]
+      }
+    ]
+  }
+}
