@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suporte — Never Forget</title>
+<style>
+  :root {
+    --bg: #0f0f0f;
+    --surface: #1a1a1a;
+    --text: #f5f5f5;
+    --text-dim: #a8a8a8;
+    --accent: #e53935;
+    --border: #2a2a2a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.7;
+    padding: 0 20px;
+  }
+  .container { max-width: 760px; margin: 0 auto; padding: 60px 0 80px; }
+  header { border-bottom: 1px solid var(--border); padding-bottom: 28px; margin-bottom: 40px; }
+  .logo { font-size: 26px; font-weight: 700; letter-spacing: -0.5px; }
+  .logo span { color: var(--accent); }
+  h1 { font-size: 30px; margin: 14px 0 6px; font-weight: 700; letter-spacing: -0.5px; }
+  h2 { font-size: 20px; margin: 40px 0 8px; font-weight: 600; border-left: 3px solid var(--accent); padding-left: 12px; }
+  .contact-box {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 24px; margin: 24px 0; text-align: center;
+  }
+  .contact-box .label { color: var(--text-dim); font-size: 14px; margin-bottom: 6px; }
+  .contact-box a { color: var(--accent); font-size: 20px; font-weight: 600; text-decoration: none; }
+  .faq-item { border-bottom: 1px solid var(--border); padding: 20px 0; }
+  .faq-item:last-child { border-bottom: none; }
+  .faq-q { font-weight: 600; color: #fff; margin-bottom: 6px; font-size: 16px; }
+  .faq-a { color: var(--text-dim); }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 60px; padding-top: 28px; border-top: 1px solid var(--border);
+    color: var(--text-dim); font-size: 14px;
+  }
+  .placeholder { color: var(--accent); font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo">Never<span>Forget</span></div>
+    <h1>Central de Suporte</h1>
+  </header>
+
+  <p>Precisa de ajuda com o Never Forget? Estamos aqui para ajudar. Confira as perguntas frequentes abaixo ou entre em contato diretamente.</p>
+
+  <div class="contact-box">
+    <div class="label">Fale conosco</div>
+    <a href="mailto:[SEU E-MAIL DE CONTATO]">[SEU E-MAIL DE CONTATO]</a>
+  </div>
+
+  <h2>Perguntas frequentes</h2>
+
+  <div class="faq-item">
+    <div class="faq-q">O app não está me notificando quando passo perto de uma loja. O que fazer?</div>
+    <div class="faq-a">Verifique se a permissão de localização está definida como "Sempre" nas configurações do seu iPhone (Ajustes → Never Forget → Localização). O app precisa dessa permissão para avisá-lo mesmo quando não está aberto. Confirme também que os itens da sua lista têm uma categoria de loja associada.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Por que o app precisa da localização "Sempre"?</div>
+    <div class="faq-a">Para lembrá-lo no momento em que você passa perto de uma loja, o app precisa monitorar sua proximidade em segundo plano — inclusive com o app fechado. Sem a permissão "Sempre", as notificações de proximidade não funcionam. Sua localização não é compartilhada com outras pessoas.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Como compartilho minha lista com minha família?</div>
+    <div class="faq-a">No menu do app, acesse "Compartilhar lista" e gere um código de convite (ou compartilhe o link). A pessoa insere o código no app dela, e a partir daí vocês podem adicionar itens na lista um do outro.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Adicionei um item mas ele não tem categoria de loja. É normal?</div>
+    <div class="faq-a">Sim. Alguns produtos são classificados automaticamente após a adição. Se um item ficar sem categoria, o app tenta resolvê-la quando obtém sua localização. Você também pode ajustar a categoria manualmente.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Como excluo minha conta e meus dados?</div>
+    <div class="faq-a">No menu do app, em Preferências, há a opção "Excluir conta", que remove seus dados pessoais e sua lista.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">O app consome muita bateria?</div>
+    <div class="faq-a">O monitoramento de localização é feito de forma otimizada pelo próprio sistema do iPhone, com baixo impacto na bateria. Se notar consumo elevado, entre em contato conosco.</div>
+  </div>
+
+  <footer>
+    Never Forget — Lembretes de compras baseados na sua localização.<br>
+    Consulte também nossa <a href="privacidade.html">Política de Privacidade</a>.
+  </footer>
+</div>
+</body>
+</html>

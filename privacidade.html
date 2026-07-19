@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidade — Never Forget</title>
+<style>
+  :root {
+    --bg: #0f0f0f;
+    --surface: #1a1a1a;
+    --text: #f5f5f5;
+    --text-dim: #a8a8a8;
+    --accent: #e53935;
+    --border: #2a2a2a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.7;
+    padding: 0 20px;
+  }
+  .container { max-width: 760px; margin: 0 auto; padding: 60px 0 80px; }
+  header { border-bottom: 1px solid var(--border); padding-bottom: 28px; margin-bottom: 40px; }
+  .logo { font-size: 26px; font-weight: 700; letter-spacing: -0.5px; }
+  .logo span { color: var(--accent); }
+  h1 { font-size: 30px; margin: 14px 0 6px; font-weight: 700; letter-spacing: -0.5px; }
+  .updated { color: var(--text-dim); font-size: 14px; }
+  h2 {
+    font-size: 20px; margin: 40px 0 14px; font-weight: 600;
+    color: var(--text); border-left: 3px solid var(--accent); padding-left: 12px;
+  }
+  p { margin: 14px 0; color: var(--text); }
+  ul { margin: 14px 0 14px 22px; }
+  li { margin: 8px 0; }
+  strong { color: #fff; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .highlight {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 16px 20px; margin: 18px 0;
+  }
+  .placeholder { color: var(--accent); font-weight: 600; }
+  footer {
+    margin-top: 60px; padding-top: 28px; border-top: 1px solid var(--border);
+    color: var(--text-dim); font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo">Never<span>Forget</span></div>
+    <h1>Política de Privacidade</h1>
+    <div class="updated">Última atualização: <span class="placeholder">[DATA]</span></div>
+  </header>
+
+  <p>Esta Política de Privacidade descreve como o aplicativo Never Forget ("aplicativo", "nós") coleta, usa e protege as suas informações. Ao usar o Never Forget, você concorda com as práticas descritas aqui.</p>
+
+  <p>O responsável pelo tratamento dos dados (controlador, nos termos da Lei Geral de Proteção de Dados — LGPD, Lei nº 13.709/2018) é <span class="placeholder">[SEU NOME COMPLETO]</span>, pessoa física, que pode ser contatado pelo e-mail <span class="placeholder">[SEU E-MAIL DE CONTATO]</span>.</p>
+
+  <h2>1. Quais dados coletamos</h2>
+  <p><strong>Dados de cadastro.</strong> Ao criar sua conta, coletamos: nome, idade, cidade, estado (ou país, caso você resida fora do Brasil) e endereço de e-mail. Caso você utilize o login com a Apple, recebemos as informações que você autoriza a Apple a compartilhar.</p>
+  <p><strong>Sua lista de compras.</strong> Os itens que você adiciona à sua lista, incluindo o nome do produto e as categorias de estabelecimento associadas.</p>
+  <p><strong>Dados de localização.</strong> O aplicativo utiliza a sua localização para funcionar. Explicamos em detalhe o tratamento da localização na seção 3, por ser o dado mais sensível que processamos.</p>
+  <p><strong>Dados técnicos.</strong> Para o funcionamento de notificações, um identificador do seu dispositivo (token de notificação) é armazenado de forma associada à sua conta.</p>
+
+  <h2>2. Como usamos os seus dados</h2>
+  <p>Utilizamos os dados para:</p>
+  <ul>
+    <li>Permitir que você crie e gerencie sua lista de compras;</li>
+    <li>Identificar estabelecimentos próximos que possam vender os produtos da sua lista;</li>
+    <li>Enviar notificações quando você estiver próximo a um estabelecimento relevante;</li>
+    <li>Permitir o compartilhamento de listas entre contas que você conecta voluntariamente;</li>
+    <li>Notificá-lo quando uma pessoa conectada à sua conta adiciona um item à sua lista.</li>
+  </ul>
+
+  <h2>3. Tratamento da sua localização — transparência</h2>
+  <p>A localização é essencial para o aplicativo, e queremos ser totalmente transparentes sobre como ela é tratada.</p>
+  <div class="highlight">
+    <p><strong>No seu dispositivo.</strong> O monitoramento da sua proximidade a estabelecimentos (o que dispara as notificações) acontece localmente no seu dispositivo, pelo próprio sistema operacional. As notificações de proximidade são geradas no seu aparelho, sem envolver nossos servidores.</p>
+    <p><strong>Quando a localização é transmitida.</strong> Para descobrir quais estabelecimentos existem perto de você, o aplicativo envia as suas coordenadas geográficas aos nossos servidores no momento dessa consulta. Esses servidores, por sua vez, consultam o serviço Google Places para obter a lista de estabelecimentos da região. Ou seja: <strong>a sua localização é transmitida aos nossos servidores e ao Google no momento da descoberta de estabelecimentos.</strong></p>
+    <p><strong>O que é e o que não é armazenado.</strong> Não armazenamos um histórico da sua localização associado à sua identidade. O que guardamos é um cache de estabelecimentos por região geográfica aproximada (uma célula de mapa), de forma desvinculada de qualquer usuário específico. Esse cache existe para reduzir consultas repetidas e diminuir custos, e não permite reconstruir por onde você passou.</p>
+  </div>
+  <p><strong>Permissão "Sempre".</strong> Para que o aplicativo possa avisá-lo mesmo quando não está aberto, ele solicita a permissão de localização "Sempre". Você pode revogar essa permissão a qualquer momento nas configurações do seu dispositivo; nesse caso, as notificações de proximidade deixarão de funcionar.</p>
+
+  <h2>4. Compartilhamento de listas entre usuários</h2>
+  <p>O aplicativo permite que você conecte sua conta à de outras pessoas (por exemplo, familiares) para compartilhar listas. Ao se conectar:</p>
+  <ul>
+    <li>As pessoas conectadas podem visualizar e adicionar itens à sua lista;</li>
+    <li><strong>A sua localização NÃO é compartilhada com as pessoas conectadas.</strong> Apenas o conteúdo das listas é compartilhado, nunca onde você está;</li>
+    <li>Você pode desfazer uma conexão a qualquer momento.</li>
+  </ul>
+
+  <h2>5. Com quem compartilhamos dados</h2>
+  <p>Utilizamos serviços de terceiros que atuam como operadores no tratamento dos dados:</p>
+  <ul>
+    <li><strong>Google Firebase</strong> (Google LLC): autenticação de conta, banco de dados das listas, notificações e infraestrutura de servidores.</li>
+    <li><strong>Google Places API</strong> (Google LLC): consultada com as suas coordenadas para obter estabelecimentos próximos.</li>
+  </ul>
+  <p>Esses serviços possuem suas próprias políticas de privacidade. Não vendemos os seus dados pessoais a terceiros. Podemos divulgar dados se exigido por lei ou ordem judicial.</p>
+
+  <h2>6. Armazenamento e segurança</h2>
+  <p>Os dados são armazenados na infraestrutura do Google Firebase. Adotamos medidas técnicas para proteger o acesso, incluindo regras de segurança que restringem o acesso aos seus dados apenas a você e às contas que você conecta voluntariamente.</p>
+  <p>Nenhum sistema é totalmente seguro, mas trabalhamos para proteger as suas informações de acessos não autorizados.</p>
+
+  <h2>7. Seus direitos (LGPD)</h2>
+  <p>Nos termos da LGPD, você tem direito a:</p>
+  <ul>
+    <li>Confirmar a existência de tratamento dos seus dados;</li>
+    <li>Acessar os seus dados;</li>
+    <li>Corrigir dados incompletos ou desatualizados;</li>
+    <li>Solicitar a exclusão dos seus dados;</li>
+    <li>Revogar consentimentos.</li>
+  </ul>
+  <p>O aplicativo oferece a opção de <strong>excluir a sua conta</strong> diretamente nas configurações, o que remove os seus dados pessoais. Para outras solicitações, entre em contato pelo e-mail <span class="placeholder">[SEU E-MAIL DE CONTATO]</span>.</p>
+
+  <h2>8. Retenção e exclusão</h2>
+  <p>Mantemos os seus dados enquanto a sua conta estiver ativa. Ao excluir a conta, os seus dados pessoais e a sua lista são removidos. O cache de estabelecimentos por região, por ser anônimo e desvinculado de usuários, pode ser mantido.</p>
+
+  <h2>9. Crianças</h2>
+  <p>O aplicativo não se destina a menores de idade e não coletamos intencionalmente dados de crianças. Caso identifiquemos que uma conta pertence a um menor sem autorização, ela poderá ser removida.</p>
+
+  <h2>10. Alterações nesta política</h2>
+  <p>Podemos atualizar esta Política de Privacidade periodicamente. Alterações relevantes serão comunicadas pelo aplicativo ou por e-mail. A data da última atualização está indicada no topo deste documento.</p>
+
+  <h2>11. Contato</h2>
+  <p>Para dúvidas, solicitações ou exercício dos seus direitos, entre em contato:</p>
+  <p><span class="placeholder">[SEU NOME COMPLETO]</span><br>E-mail: <span class="placeholder">[SEU E-MAIL DE CONTATO]</span></p>
+
+  <footer>
+    Never Forget — Lembretes de compras baseados na sua localização.
+  </footer>
+</div>
+</body>
+</html>
